@@ -1,0 +1,114 @@
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+div,
+span,
+ul,
+li,
+a,
+p {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: normal;
+  font-size: 100%;
+}
+ul,
+li {
+  list-style-type: none;
+}
+html,
+body {
+  font-family: "Microsoft Yahei", "SF Pro SC", "SF Pro Text", "SF Pro Icons", "PingFang SC", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+  font-size: 14px;
+  line-height: 1.5;
+}
+body {
+  min-width: 1200px;
+  color: #252b3a;
+}
+a {
+  text-decoration: none;
+}
+.layout {
+  width: 1200px;
+  margin: 0 auto;
+  position: relative;
+}
+.mod-section-header {
+  text-align: center;
+  padding: 90px 0 80px;
+}
+.mod-section-header h2 {
+  font-size: 32px;
+}
+.mod-section-header h3 {
+  font-size: 18px;
+}
+.page-header {
+  padding: 60px 0 35px;
+}
+.page-header h2 {
+  font-size: 26px;
+  position: relative;
+  padding-bottom: 16px;
+}
+.page-header h2:after {
+  position: absolute;
+  content: '';
+  width: 50px;
+  height: 2px;
+  background: #000;
+  bottom: 0;
+  left: 50%;
+  margin-left: -25px;
+}
+.page-header h3 {
+  margin-top: 5px;
+}
+.tab .tab-bar {
+  font-size: 0;
+  text-align: center;
+}
+.tab .tab-bar-item {
+  display: inline-block;
+  vertical-align: top;
+  width: 185px;
+  height: 40px;
+  text-align: center;
+  line-height: 40px;
+  color: #687186;
+  font-size: 16px;
+  cursor: pointer;
+}
+.tab .tab-bar-item.active,
+.tab .tab-bar-item:hover {
+  color: #fff;
+  background: #0066ff;
+}
+.product-content {
+  font-size: 15px;
+  line-height: 28px;
+  text-align: center;
+}
+.product-content .img-title {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.product-content .item {
+  margin-bottom: 50px;
+}

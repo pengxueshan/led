@@ -1,0 +1,84 @@
+.banner {
+  max-height: 940px;
+  position: relative;
+}
+.banner .layout {
+  height: 100%;
+  text-align: center;
+}
+.banner .layout:after {
+  height: 100%;
+  vertical-align: middle;
+  content: '';
+  display: inline-block;
+}
+.banner .layout .content {
+  display: inline-block;
+  vertical-align: middle;
+  color: #fff;
+}
+.banner .layout .content .title {
+  font-size: 80px;
+  margin-bottom: 10px;
+}
+.banner .layout .content .sub-title {
+  font-size: 22px;
+}
+.banner .banner-swapper {
+  height: 100%;
+  position: relative;
+}
+.banner .banner-item {
+  position: absolute;
+  height: 100%;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-position: center;
+}
+.banner .banner-control {
+  position: absolute;
+  bottom: 30px;
+  left: 0;
+  right: 0;
+  text-align: center;
+  color: #fff;
+  font-size: 12px;
+}
+.banner .banner-control-items {
+  margin-top: 20px;
+}
+.banner .banner-control .item {
+  display: inline-block;
+  vertical-align: top;
+  width: 36px;
+  height: 4px;
+  overflow: hidden;
+  background: #bdcbd8;
+  cursor: pointer;
+  margin: 0 10px;
+}
+.banner .banner-control .item.active {
+  background: #0066ff;
+}
+.banner-page {
+  height: 400px;
+  background-position: center;
+}
+.banner-page .layout {
+  padding-top: 80px;
+}
+.banner-page .layout h1 {
+  font-size: 60px;
+  color: #fff;
+  margin-top: 75px;
+}
+.banner-product {
+  background-image: url(/images/banner-product.jpg);
+}
+.banner-core {
+  background-image: url(/images/banner-core.jpg);
+}
+.banner-about {
+  background-image: url(/images/banner-about.jpg);
+}

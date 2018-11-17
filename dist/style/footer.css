@@ -1,0 +1,44 @@
+.footer {
+  background: #031236;
+}
+.footer .intro .layout {
+  padding: 50px 0;
+  min-height: 260px;
+}
+.footer .intro .item {
+  display: inline-block;
+  padding-right: 60px;
+  width: 310px;
+  vertical-align: top;
+}
+.footer .intro .item h2 {
+  font-size: 15px;
+  color: #fff;
+  margin-bottom: 20px;
+}
+.footer .intro .item li,
+.footer .intro .item a {
+  color: #80869d;
+  font-size: 14px;
+}
+.footer .intro .item li {
+  margin-bottom: 10px;
+}
+.footer .intro .qr-code {
+  position: absolute;
+  right: 0;
+  top: 54px;
+  right: 18px;
+  text-align: center;
+  color: #80869d;
+}
+.footer .intro .qr-code img {
+  vertical-align: top;
+  margin-bottom: 10px;
+}
+.footer .copyright {
+  border-top: 1px solid #1d2a4a;
+  text-align: center;
+  color: #80869d;
+  padding: 10px 0;
+}

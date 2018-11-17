@@ -1,0 +1,156 @@
+.header {
+  position: fixed;
+  height: 80px;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 10;
+  min-width: 1200px;
+}
+.header .bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  bottom: 0;
+  background: #031236;
+  opacity: 0;
+}
+.header .logo {
+  display: inline-block;
+  margin-top: 20px;
+  vertical-align: top;
+}
+.header .logo a {
+  display: inline-block;
+  width: 146px;
+  height: 40px;
+  text-indent: -999em;
+  overflow: hidden;
+  background: url(/images/logo.png) no-repeat;
+}
+.header .language {
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 25px;
+  margin-left: 17px;
+  position: relative;
+}
+.header .language .active {
+  width: 78px;
+  height: 28px;
+  line-height: 28px;
+  text-align: center;
+  font-size: 14px;
+  color: #fff;
+  border: 1px solid transparent;
+  cursor: pointer;
+  z-index: 2;
+  position: relative;
+}
+.header .language .arrow {
+  display: inline-block;
+  vertical-align: top;
+  width: 10px;
+  height: 5px;
+  background: url(/images/arrow.png) no-repeat;
+  overflow: hidden;
+  margin-top: 12px;
+  margin-left: 8px;
+}
+.header .language .drop-list {
+  position: absolute;
+  top: 18px;
+  left: -15px;
+  display: none;
+  padding-top: 30px;
+}
+.header .language .drop-list:after {
+  position: absolute;
+  content: '';
+  border-width: 0 13px 13px 13px;
+  border-style: solid;
+  border-color: transparent transparent #020d27 transparent;
+  top: 17px;
+  left: 50%;
+  margin-left: -13px;
+}
+.header .language .drop-list li {
+  width: 110px;
+  text-align: center;
+  line-height: 46px;
+  color: #fff;
+  background: #020d27;
+  cursor: pointer;
+}
+.header .language .drop-list li:hover {
+  color: #3e8bff;
+}
+.header .language:hover .active {
+  border-color: #fff;
+}
+.header .language:hover .drop-list {
+  display: block;
+}
+.header .nav {
+  position: absolute;
+  right: 0;
+  top: 0;
+  white-space: nowrap;
+  margin-top: 25px;
+}
+.header .nav > ul > li,
+.header .nav > ul > li > a {
+  display: inline-block;
+  vertical-align: top;
+}
+.header .nav > ul > li > a {
+  width: 95px;
+  height: 28px;
+  text-align: center;
+  line-height: 28px;
+  border: 1px solid transparent;
+}
+.header .nav a {
+  color: #fff;
+}
+.header .nav > ul > li {
+  position: relative;
+}
+.header .nav > ul > li:hover > a,
+.header .nav > ul > li.active > a {
+  border-color: #fff;
+}
+.header .nav > ul > li:hover .sub {
+  display: block;
+}
+.header .nav .sub {
+  position: absolute;
+  top: 18px;
+  left: 50%;
+  display: none;
+  padding-top: 30px;
+  margin-left: -55px;
+}
+.header .nav .sub:after {
+  position: absolute;
+  content: '';
+  border-width: 0 13px 13px 13px;
+  border-style: solid;
+  border-color: transparent transparent #020d27 transparent;
+  top: 17px;
+  left: 50%;
+  margin-left: -13px;
+}
+.header .nav .sub li a {
+  display: block;
+  width: 110px;
+  text-align: center;
+  line-height: 46px;
+  color: #fff;
+  background: #020d27;
+  cursor: pointer;
+}
+.header .nav .sub li a:hover {
+  color: #3e8bff;
+}
