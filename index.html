@@ -166,6 +166,15 @@
     <link rel="import" href="./templates/footer.html?__inline">
     <script src="./js/jquery-3.3.1.min.js"></script>
     <script src="./js/header.js"></script>
+    <script src="./js/swiper.js"></script>
+    <script>
+        var swiper = new Swiper('.banner', {
+            pagination: {
+                el: '.banner-control-items',
+                clickable: true
+            }
+        });
+    </script>
 </body>
 
 </html>

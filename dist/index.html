@@ -50,8 +50,24 @@
     </div>
 </div>
     <div class="banner" style="height:940px;">
-    <div class="banner-swapper">
-        <div class="banner-item" style="background-image:url(/tmp/banner-01.jpg);">
+    <div class="banner-swapper swiper-wrapper">
+        <div class="banner-item swiper-slide" style="background-image:url(/tmp/banner-01.jpg);">
+            <div class="layout">
+                <div class="content">
+                    <div class="title">精准的颜色 敏捷的柔光</div>
+                    <div class="sub-title">从360度色轮和流行的凝胶中拨出任何颜色，保存预设即时召回</div>
+                </div>
+            </div>
+        </div>
+        <div class="banner-item swiper-slide" style="background-image:url(/tmp/banner-01.jpg);">
+            <div class="layout">
+                <div class="content">
+                    <div class="title">精准的颜色 敏捷的柔光</div>
+                    <div class="sub-title">从360度色轮和流行的凝胶中拨出任何颜色，保存预设即时召回</div>
+                </div>
+            </div>
+        </div>
+        <div class="banner-item swiper-slide" style="background-image:url(/tmp/banner-01.jpg);">
             <div class="layout">
                 <div class="content">
                     <div class="title">精准的颜色 敏捷的柔光</div>
@@ -258,6 +274,15 @@
 </div>
     <script src="/js/jquery-3.3.1.min.js"></script>
     <script src="/js/header.js"></script>
+    <script src="/js/swiper.js"></script>
+    <script>
+        var swiper = new Swiper('.banner', {
+            pagination: {
+                el: '.banner-control-items',
+                clickable: true
+            }
+        });
+    </script>
 </body>
 
 </html>

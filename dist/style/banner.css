@@ -27,14 +27,14 @@
 .banner .banner-swapper {
   height: 100%;
   position: relative;
+  white-space: nowrap;
+  font-size: 0;
 }
 .banner .banner-item {
-  position: absolute;
   height: 100%;
-  top: 0;
-  left: 0;
   width: 100%;
-  background-position: center;
+  display: inline-block;
+  vertical-align: top;
 }
 .banner .banner-control {
   position: absolute;
@@ -48,7 +48,7 @@
 .banner .banner-control-items {
   margin-top: 20px;
 }
-.banner .banner-control .item {
+.banner .banner-control .swiper-pagination-bullet {
   display: inline-block;
   vertical-align: top;
   width: 36px;
@@ -58,7 +58,7 @@
   cursor: pointer;
   margin: 0 10px;
 }
-.banner .banner-control .item.active {
+.banner .banner-control .swiper-pagination-bullet-active {
   background: #0066ff;
 }
 .banner-page {
