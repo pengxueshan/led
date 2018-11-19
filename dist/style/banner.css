@@ -63,7 +63,8 @@
 }
 .banner-page {
   height: 400px;
-  background-position: center;
+  background-position: top center;
+  background-attachment: fixed;
 }
 .banner-page .layout {
   padding-top: 80px;
