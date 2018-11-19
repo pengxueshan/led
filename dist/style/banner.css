@@ -1,6 +1,7 @@
 .banner {
   max-height: 940px;
   position: relative;
+  overflow: hidden;
 }
 .banner .layout {
   height: 100%;
