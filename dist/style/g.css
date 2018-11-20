@@ -41,6 +41,9 @@ body {
   min-width: 1200px;
   color: #252b3a;
 }
+body.lang-en {
+  font-family: "Arial";
+}
 a {
   text-decoration: none;
 }
