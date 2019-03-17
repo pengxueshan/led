@@ -65,40 +65,29 @@
   position: relative;
   height: 600px;
   overflow: hidden;
+  margin-bottom: 40px;
 }
-.products .item .bg {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  width: 100%;
-}
-.products .item .bg1 {
-  right: 50%;
-}
-.products .item .bg2 {
-  left: 50%;
-}
-.products .item .layout {
-  z-index: 2;
-  height: 100%;
-}
-.products .item .arrow {
-  position: absolute;
-  z-index: 3;
-  border-style: solid;
-  top: 50%;
-  margin-top: -35px;
+.products .item:last-child {
+  margin-bottom: 0;
 }
 .products .item .pic {
   position: absolute;
   top: 0;
+  width: 590px;
+  height: 100%;
+  overflow: hidden;
 }
 .products .item .intro {
-  width: 530px;
-  padding-top: 95px;
+  width: 590px;
+  padding: 95px 50px 0 50px;
   height: 100%;
-  position: absolute;
-  top: 0;
+  background-color: #0a58b1;
+  color: #fff;
+  overflow: hidden;
+  position: relative;
+}
+.products .item .intro a {
+  color: #fff;
 }
 .products .item .intro h3 {
   font-size: 26px;
@@ -107,6 +96,8 @@
   font-size: 16px;
   line-height: 2;
   margin-top: 35px;
+  height: 295px;
+  overflow: hidden;
 }
 .products .item .intro .text p {
   margin-bottom: 26px;
@@ -114,7 +105,7 @@
 .products .item .intro .more {
   font-size: 16px;
   position: absolute;
-  left: 0;
+  left: 50px;
   bottom: 87px;
 }
 .products .item .intro .more span {
@@ -126,75 +117,23 @@
   vertical-align: top;
   margin: 10px 0 0 24px;
 }
-.products .item1 .bg1 {
-  background: #0c69d3;
-}
-.products .item1 .bg2 {
-  background: #f5f6f7;
-}
-.products .item1 .intro {
-  color: #fff;
-  left: 0;
-}
-.products .item1 .intro a {
-  color: #fff;
-}
-.products .item1 .arrow {
-  border-width: 35px 0 35px 35px;
-  border-color: transparent transparent transparent #0c69d3;
-  left: 50%;
-}
-.products .item1 .pic {
-  left: 50%;
-}
-.products .item2 .bg1 {
-  background: #dadada;
-}
-.products .item2 .bg2 {
-  background: #f3d748;
-}
-.products .item2 .intro {
-  color: #031236;
-  right: 0;
-  width: 495px;
-}
-.products .item2 .intro a {
-  color: #031236;
-}
-.products .item2 .intro .more span {
-  background-image: url(/images/more-black.png);
-}
-.products .item2 .arrow {
-  border-width: 35px 35px 35px 0;
-  border-color: transparent #f3d748 transparent transparent;
-  right: 50%;
-}
-.products .item2 .pic {
-  right: 50%;
-}
-.products .item3 .bg1 {
-  background: #f5f6f7;
-}
-.products .item3 .bg2 {
-  background: #f2f2f2;
-}
-.products .item3 .intro {
-  color: #031236;
-  left: 0;
-}
-.products .item3 .intro a {
-  color: #031236;
-}
-.products .item3 .intro .more span {
-  background-image: url(/images/more-black.png);
-}
-.products .item3 .arrow {
-  border-width: 35px 0 35px 35px;
-  border-color: transparent transparent transparent #f5f6f7;
-  left: 50%;
-}
+.products .item1 .pic,
 .products .item3 .pic {
-  left: 50%;
+  right: 0;
+}
+.products .item2 .intro,
+.products .item4 .intro {
+  margin-left: 610px;
+}
+.products .item2 .pic,
+.products .item4 .pic {
+  left: 0;
+}
+.products-content {
+  background-color: #001227;
+}
+.products-content .layout {
+  padding: 40px 0;
 }
 .coop {
   margin-bottom: 98px;

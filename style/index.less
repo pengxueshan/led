@@ -1,232 +1,165 @@
 .services {
-    .list {
-        font-size: 0;
+  .list {
+    font-size: 0;
+  }
+  .item {
+    display: inline-block;
+    vertical-align: top;
+    width: 300px;
+    font-size: 15px;
+    color: #031236;
+    text-align: center;
+    height: 474px;
+    overflow: hidden;
+    border-right: 1px solid #ebecef;
+    &:last-child {
+      border-right: none;
     }
-    .item {
-        display: inline-block;
-        vertical-align: top;
-        width: 300px;
-        font-size: 15px;
-        color: #031236;
-        text-align: center;
-        height: 474px;
-        overflow: hidden;
-        border-right: 1px solid #ebecef;
-        &:last-child {
-            border-right: none;
-        }
+  }
+  .title {
+    font-size: 24px;
+    line-height: 26px;
+  }
+  .sub-title {
+    font-size: 18px;
+    padding: 30px 0;
+    position: relative;
+    margin-bottom: 65px;
+    &:after {
+      position: absolute;
+      content: '';
+      width: 50px;
+      height: 1px;
+      overflow: hidden;
+      bottom: 0;
+      left: 50%;
+      margin-left: -25px;
+      background: #031236;
     }
-    .title {
-        font-size: 24px;
-        line-height: 26px;
-    }
-    .sub-title {
-        font-size: 18px;
-        padding: 30px 0;
-        position: relative;
-        margin-bottom: 65px;
-        &:after {
-            position: absolute;
-            content: '';
-            width: 50px;
-            height: 1px;
-            overflow: hidden;
-            bottom: 0;
-            left: 50%;
-            margin-left: -25px;
-            background: #031236;
-        }
-    }
-    .icon-wrap {
-        margin-bottom: 65px;
-    }
-    .icon {
-        display: inline-block;
-        width: 118px;
-        height: 118px;
-        background-repeat: no-repeat;
-    }
-    .icon-camera {
-        background-image: url(../images/icon-prod-1.png);
-    }
-    .icon-light {
-        background-image: url(../images/icon-prod-2.png);
-    }
-    .icon-lease {
-        background-image: url(../images/icon-prod-3.png);
-    }
-    .icon-media {
-        background-image: url(../images/icon-prod-4.png);
-    }
-    .intro {
-        line-height: 26px;
-        padding: 0 40px;
-    }
+  }
+  .icon-wrap {
+    margin-bottom: 65px;
+  }
+  .icon {
+    display: inline-block;
+    width: 118px;
+    height: 118px;
+    background-repeat: no-repeat;
+  }
+  .icon-camera {
+    background-image: url(../images/icon-prod-1.png);
+  }
+  .icon-light {
+    background-image: url(../images/icon-prod-2.png);
+  }
+  .icon-lease {
+    background-image: url(../images/icon-prod-3.png);
+  }
+  .icon-media {
+    background-image: url(../images/icon-prod-4.png);
+  }
+  .intro {
+    line-height: 26px;
+    padding: 0 40px;
+  }
 }
 
 .products {
-    .item {
-        position: relative;
-        height: 600px;
+  .item {
+    position: relative;
+    height: 600px;
+    overflow: hidden;
+    margin-bottom: 40px;
+    &:last-child {
+      margin-bottom: 0;
+    }
+    .pic {
+      position: absolute;
+      top: 0;
+      width: 590px;
+      height: 100%;
+      overflow: hidden;
+    }
+    .intro {
+      width: 590px;
+      padding: 95px 50px 0 50px;
+      height: 100%;
+      background-color: #0a58b1;
+      color: #fff;
+      overflow: hidden;
+      position: relative;
+      a {
+        color: #fff;
+      }
+      h3 {
+        font-size: 26px;
+      }
+      .text {
+        font-size: 16px;
+        line-height: 2;
+        margin-top: 35px;
+        height: 295px;
         overflow: hidden;
-        .bg {
-            position: absolute;
-            top: 0;
-            bottom: 0;
-            width: 100%;
+        p {
+          margin-bottom: 26px;
         }
-        .bg1 {
-            right: 50%;
+      }
+      .more {
+        font-size: 16px;
+        position: absolute;
+        left: 50px;
+        bottom: 87px;
+        span {
+          display: inline-block;
+          width: 26px;
+          height: 5px;
+          overflow: hidden;
+          background: url(../images/more.png) no-repeat;
+          vertical-align: top;
+          margin: 10px 0 0 24px;
         }
-        .bg2 {
-            left: 50%;
-        }
-        .layout {
-            z-index: 2;
-            height: 100%;
-        }
-        .arrow {
-            position: absolute;
-            z-index: 3;
-            border-style: solid;
-            top: 50%;
-            margin-top: -35px;
-        }
-        .pic {
-            position: absolute;
-            top: 0;
-        }
-        .intro {
-            width: 530px;
-            padding-top: 95px;
-            height: 100%;
-            position: absolute;
-            top: 0;
-            h3 {
-                font-size: 26px;
-            }
-            .text {
-                font-size: 16px;
-                line-height: 2;
-                margin-top: 35px;
-                p {
-                    margin-bottom: 26px;
-                }
-            }
-            .more {
-                font-size: 16px;
-                position: absolute;
-                left: 0;
-                bottom: 87px;
-                span {
-                    display: inline-block;
-                    width: 26px;
-                    height: 5px;
-                    overflow: hidden;
-                    background: url(../images/more.png) no-repeat;
-                    vertical-align: top;
-                    margin: 10px 0 0 24px;
-                }
-            }
-        }
+      }
     }
-    .item1 {
-        .bg1 {
-            background: #0c69d3;
-        }
-        .bg2 {
-            background: #f5f6f7;
-        }
-        .intro {
-            color: #fff;
-            left: 0;
-            a {
-                color: #fff;
-            }
-        }
-        .arrow {
-            border-width: 35px 0 35px 35px;
-            border-color: transparent transparent transparent #0c69d3;
-            left: 50%;
-        }
-        .pic {
-            left: 50%;
-        }
+  }
+  .item1,
+  .item3 {
+    .pic {
+      right: 0;
     }
-    .item2 {
-        .bg1 {
-            background: #dadada;
-        }
-        .bg2 {
-            background: #f3d748;
-        }
-        .intro {
-            color: #031236;
-            right: 0;
-            width: 495px;
-            a {
-                color: #031236;
-            }
-            .more {
-                span {
-                    background-image: url(../images/more-black.png);
-                }
-            }
-        }
-        .arrow {
-            border-width: 35px 35px 35px 0;
-            border-color: transparent #f3d748 transparent transparent;
-            right: 50%;
-        }
-        .pic {
-            right: 50%;
-        }
+  }
+  .item2,
+  .item4 {
+    .intro {
+      margin-left: 610px;
     }
-    .item3 {
-        .bg1 {
-            background: #f5f6f7;
-        }
-        .bg2 {
-            background: #f2f2f2;
-        }
-        .intro {
-            color: #031236;
-            left: 0;
-            a {
-                color: #031236;
-            }
-            .more {
-                span {
-                    background-image: url(../images/more-black.png);
-                }
-            }
-        }
-        .arrow {
-            border-width: 35px 0 35px 35px;
-            border-color: transparent transparent transparent #f5f6f7;
-            left: 50%;
-        }
-        .pic {
-            left: 50%;
-        }
+    .pic {
+      left: 0;
     }
+  }
+}
+
+.products-content {
+  background-color: #001227;
+  .layout {
+    padding: 40px 0;
+  }
 }
 
 .coop {
-    margin-bottom: 98px;
-    .list {
-        font-size: 0;
-        padding-left: 2px;
-        padding-top: 2px;
-        li {
-            display: inline-block;
-            vertical-align: top;
-            width: 300px;
-            height: 111px;
-            overflow: hidden;
-            border: 2px solid #ebedee;
-            margin-top: -2px;
-            margin-left: -2px;
-        }
+  margin-bottom: 98px;
+  .list {
+    font-size: 0;
+    padding-left: 2px;
+    padding-top: 2px;
+    li {
+      display: inline-block;
+      vertical-align: top;
+      width: 300px;
+      height: 111px;
+      overflow: hidden;
+      border: 2px solid #ebedee;
+      margin-top: -2px;
+      margin-left: -2px;
     }
+  }
 }
