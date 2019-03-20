@@ -115,6 +115,9 @@ a {
 .product-content .item {
   margin-bottom: 50px;
 }
+.product-content img {
+  max-width: 75%;
+}
 .popup {
   position: fixed;
   top: 0;
