@@ -64,7 +64,7 @@
 }
 .products .item {
   position: relative;
-  height: 600px;
+  height: 400px;
   overflow: hidden;
   margin-bottom: 40px;
 }
@@ -85,7 +85,7 @@
 }
 .products .item .intro {
   width: 590px;
-  padding: 95px 50px 0 50px;
+  padding: 45px 50px 0 50px;
   height: 100%;
   background-color: #0a58b1;
   color: #fff;
@@ -96,13 +96,13 @@
   color: #fff;
 }
 .products .item .intro h3 {
-  font-size: 26px;
+  font-size: 24px;
 }
 .products .item .intro .text {
-  font-size: 16px;
+  font-size: 14px;
   line-height: 2;
   margin-top: 35px;
-  height: 295px;
+  height: 170px;
   overflow: hidden;
 }
 .products .item .intro .text p {
@@ -112,7 +112,7 @@
   font-size: 16px;
   position: absolute;
   left: 50px;
-  bottom: 87px;
+  bottom: 45px;
 }
 .products .item .intro .more span {
   display: inline-block;

@@ -11,11 +11,13 @@
   position: absolute;
   right: 0;
   top: 0;
+  z-index: 2;
 }
 .about-intro .pic2 {
   position: absolute;
   left: 0;
   bottom: 5px;
+  z-index: 2;
 }
 .about-intro .color1 {
   position: absolute;
@@ -24,6 +26,7 @@
   top: -47px;
   left: -81px;
   background: #fcf1ed;
+  z-index: 1;
 }
 .about-intro .color2 {
   position: absolute;
@@ -32,6 +35,7 @@
   bottom: 0;
   right: -108px;
   background: #eaf5f9;
+  z-index: 1;
 }
 .about-intro .item {
   position: absolute;
@@ -49,6 +53,7 @@
   padding: 46px 72px 0 72px;
   left: 0;
   top: 70px;
+  z-index: 3;
 }
 .about-intro .hope {
   width: 460px;
@@ -56,4 +61,5 @@
   padding: 66px 72px 0 72px;
   right: 0;
   bottom: 0;
+  z-index: 3;
 }

@@ -106,17 +106,27 @@ a {
 .product-content {
   font-size: 15px;
   line-height: 28px;
-  text-align: center;
+  padding: 0 100px;
+}
+.product-content p {
+  text-indent: 2em;
 }
 .product-content .img-title {
   font-weight: bold;
   margin-bottom: 10px;
+  text-align: center;
+  text-indent: 0;
+}
+.product-content .img-wrap {
+  text-align: center;
+  text-indent: 0;
 }
 .product-content .item {
   margin-bottom: 50px;
 }
 .product-content img {
-  max-width: 75%;
+  max-width: 500px;
+  max-height: 500px;
 }
 .popup {
   position: fixed;
