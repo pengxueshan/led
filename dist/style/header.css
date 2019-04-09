@@ -23,11 +23,13 @@
 }
 .header .logo a {
   display: inline-block;
-  width: 146px;
+  width: 177px;
   height: 40px;
   text-indent: -999em;
   overflow: hidden;
-  background: url(/images/logo.png) no-repeat;
+  background: url(/images/logo@2x.png) no-repeat;
+  -webkit-background-size: 100% 100%;
+          background-size: 100% 100%;
 }
 .header .language {
   display: inline-block;

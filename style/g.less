@@ -135,6 +135,43 @@ a {
         max-width: 500px;
         max-height: 500px;
     }
+    .row {
+        font-size: 0;
+        margin-bottom: 100px;
+        img {
+            max-width: 100%;
+            max-height: initial;
+        }
+        .col {
+            display: inline-block;
+            vertical-align: middle;
+            width: 530px;
+            font-size: 15px;
+            margin-right: 40px;
+            word-break: break-all;
+            &:last-child {
+                margin-right: 0;
+            }
+        }
+        h3 {
+            font-size: 16px;
+            margin-bottom: 10px;
+            font-weight: bold;
+        }
+        p {
+            text-indent: 0;
+        }
+        .intro {
+            margin-bottom: 30px;
+            &:last-child {
+                margin-bottom: 0;
+            }
+        }
+    }
+}
+
+.product-content2 {
+    padding: 0 50px;
 }
 
 .popup {

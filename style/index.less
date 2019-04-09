@@ -144,6 +144,70 @@
   }
 }
 
+.products {
+  margin-top: 150px;
+  .row {
+    white-space: nowrap;
+    max-width: 1920px;
+    min-width: 1200px;
+    font-size: 0;
+  }
+  .prod-item {
+    display: inline-block;
+    vertical-align: top;
+    width: 50%;
+    position: relative;
+    overflow: hidden;
+    .empty {
+      width: 100%;
+      vertical-align: top;
+    }
+    .img,
+    video {
+      position: absolute;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+    }
+    .mask {
+      position: absolute;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      background: url(../images/mask.png) no-repeat;
+      background-size: 100% 100%;
+    }
+    .intro {
+      position: absolute;
+      bottom: 40px;
+      left: 0;
+      right: 0;
+      text-align: center;
+      color: #fff;
+    }
+    h3 {
+      font-size: 30px;
+      margin-bottom: 10px;
+      opacity: 0.8;
+    }
+    p {
+      font-size: 16px;
+      line-height: 32px;
+      opacity: 0.6;
+    }
+    a {
+      position: absolute;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+    }
+  }
+}
+
 .products-content {
   background-color: #001227;
   .layout {

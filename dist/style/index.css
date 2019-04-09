@@ -135,6 +135,70 @@
 .products .item4 .pic {
   left: 0;
 }
+.products {
+  margin-top: 150px;
+}
+.products .row {
+  white-space: nowrap;
+  max-width: 1920px;
+  min-width: 1200px;
+  font-size: 0;
+}
+.products .prod-item {
+  display: inline-block;
+  vertical-align: top;
+  width: 50%;
+  position: relative;
+  overflow: hidden;
+}
+.products .prod-item .empty {
+  width: 100%;
+  vertical-align: top;
+}
+.products .prod-item .img,
+.products .prod-item video {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+.products .prod-item .mask {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: url(/images/mask.png) no-repeat;
+  -webkit-background-size: 100% 100%;
+          background-size: 100% 100%;
+}
+.products .prod-item .intro {
+  position: absolute;
+  bottom: 40px;
+  left: 0;
+  right: 0;
+  text-align: center;
+  color: #fff;
+}
+.products .prod-item h3 {
+  font-size: 30px;
+  margin-bottom: 10px;
+  opacity: 0.8;
+}
+.products .prod-item p {
+  font-size: 16px;
+  line-height: 32px;
+  opacity: 0.6;
+}
+.products .prod-item a {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
 .products-content {
   background-color: #001227;
 }

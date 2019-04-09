@@ -128,6 +128,42 @@ a {
   max-width: 500px;
   max-height: 500px;
 }
+.product-content .row {
+  font-size: 0;
+  margin-bottom: 100px;
+}
+.product-content .row img {
+  max-width: 100%;
+  max-height: initial;
+}
+.product-content .row .col {
+  display: inline-block;
+  vertical-align: middle;
+  width: 530px;
+  font-size: 15px;
+  margin-right: 40px;
+  word-break: break-all;
+}
+.product-content .row .col:last-child {
+  margin-right: 0;
+}
+.product-content .row h3 {
+  font-size: 16px;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+.product-content .row p {
+  text-indent: 0;
+}
+.product-content .row .intro {
+  margin-bottom: 30px;
+}
+.product-content .row .intro:last-child {
+  margin-bottom: 0;
+}
+.product-content2 {
+  padding: 0 50px;
+}
 .popup {
   position: fixed;
   top: 0;
