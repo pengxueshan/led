@@ -37,13 +37,14 @@
   background: #031236;
 }
 .services .icon-wrap {
-  margin-bottom: 40px;
+  margin: 0 auto 40px;
+  width: 118px;
+  height: 118px;
 }
 .services .icon {
   display: inline-block;
-  width: 118px;
-  height: 118px;
   background-repeat: no-repeat;
+  vertical-align: top;
 }
 .services .icon-camera {
   background-image: url(/images/icon-prod-1.png);
@@ -56,6 +57,26 @@
 }
 .services .icon-media {
   background-image: url(/images/icon-prod-4.png);
+}
+.services .icon-01 {
+  background-image: url(/images/icon-01.png);
+  width: 96px;
+  height: 96px;
+}
+.services .icon-02 {
+  background-image: url(/images/icon-02.png);
+  width: 118px;
+  height: 118px;
+}
+.services .icon-03 {
+  background-image: url(/images/icon-03.png);
+  width: 100px;
+  height: 100px;
+}
+.services .icon-04 {
+  background-image: url(/images/icon-04.png);
+  width: 111px;
+  height: 96px;
 }
 .services .intro {
   line-height: 26px;

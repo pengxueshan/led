@@ -134,6 +134,8 @@ a {
     img {
         max-width: 500px;
         max-height: 500px;
+        vertical-align: middle;
+        margin: 0 10px;
     }
     .row {
         font-size: 0;
@@ -141,6 +143,7 @@ a {
         img {
             max-width: 100%;
             max-height: initial;
+            margin: 0;
         }
         .col {
             display: inline-block;
@@ -166,6 +169,10 @@ a {
             &:last-child {
                 margin-bottom: 0;
             }
+        }
+        .center {
+            text-align: center;
+            width: 100%;
         }
     }
 }

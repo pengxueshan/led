@@ -127,6 +127,8 @@ a {
 .product-content img {
   max-width: 500px;
   max-height: 500px;
+  vertical-align: middle;
+  margin: 0 10px;
 }
 .product-content .row {
   font-size: 0;
@@ -135,6 +137,7 @@ a {
 .product-content .row img {
   max-width: 100%;
   max-height: initial;
+  margin: 0;
 }
 .product-content .row .col {
   display: inline-block;
@@ -160,6 +163,10 @@ a {
 }
 .product-content .row .intro:last-child {
   margin-bottom: 0;
+}
+.product-content .row .center {
+  text-align: center;
+  width: 100%;
 }
 .product-content2 {
   padding: 0 50px;
