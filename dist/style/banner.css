@@ -34,6 +34,7 @@
 .banner .banner-item {
   height: 100%;
   width: 100%;
+  background-position: center;
   display: inline-block;
   vertical-align: top;
 }
