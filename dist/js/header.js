@@ -12,11 +12,11 @@ $(function () {
         });
     });
 
-    var windowHeight = $(window).height();
-    windowHeight = windowHeight > 940 ? 940 : windowHeight;
-    $('.banner:not(.banner-page)').css({
-        height: windowHeight
-    });
+    // var windowHeight = $(window).height();
+    // windowHeight = windowHeight > 940 ? 940 : windowHeight;
+    // $('.banner:not(.banner-page)').css({
+    //     height: windowHeight
+    // });
 
     var currentPath = location.pathname;
     $('.header .nav a[href="' + currentPath + '"]').parent().addClass('active');
